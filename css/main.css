@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+
+
+div.container{
+    width: 40%;
+    background-color: rgb(8, 8, 105);
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: 100px 100px 100px;
+    margin: 100px auto;
+    gap: 10px;
+
+}
+div.container > div.header{
+    background-color: rgb(8, 105, 42);
+    grid-column: 4/10;
+    grid-row: 1/2;
+
+}
+div.container > div.menu{
+    background-color: rgb(128, 216, 159);
+    grid-column: 1/4;
+    grid-row: 1/4;
+
+}
+div.container > div.logo{
+    background-color: rgb(128, 216, 159);
+    grid-column: 10/13;
+    grid-row: 1/2;
+
+}
+div.container > div.footer{
+    background-color: rgb(40, 119, 68);
+    grid-column: 10/13;
+    grid-row: 2/4;
+
+}div.container > div.item1{
+    background-color: rgb(27, 58, 38);
+    grid-column: 4/7;
+    grid-row: 2/3;
+
+}div.container > div.item2{
+    background-color: rgb(33, 146, 72);
+    grid-column:7/10 ;
+    grid-row: 2/3;
+
+}div.container > div.item3{
+    background-color: rgb(33, 146, 72);
+    grid-column: 4/7;
+    grid-row: 3/4;
+
+}div.container > div.item4{
+    background-color:rgb(27, 58, 38);
+    grid-column: 7/10;
+    grid-row: 3/4;
+
+}
